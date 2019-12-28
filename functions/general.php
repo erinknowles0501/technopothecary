@@ -1,5 +1,9 @@
 <?php 
 
+// $path = $_SERVER['DOCUMENT_ROOT'];
+// $path .= "/technopothecary/";
+$path = "/technopothecary/";
+
 function display_errors($errors, $action) {
     echo "<blockquote class='error'><h3>Could not ".$action.": encountered the following error/s:</h3>";
     foreach($errors as $error) {
