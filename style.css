@@ -40,3 +40,25 @@ form ul {
 form li {
     margin-bottom: 5vh;
 }
+
+
+
+
+
+
+.garden {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2vh;
+    width: 300px;
+}
+
+.garden .area {
+    background: brown;
+    height: 50px;
+    width: 50px;
+}
+
+.garden .area:hover {
+    background: red;
+}
