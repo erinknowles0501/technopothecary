@@ -1,0 +1,23 @@
+blockquote {
+    font-style: normal;
+    padding: 3vh;
+}
+
+blockquote h3 {
+    margin: 0;
+    padding: 0;
+}
+
+blockquote p {
+    margin: 0;
+}
+
+.error {
+    border-left-color: red;
+    background: #FFCC99;
+}
+
+.success {
+    border-left-color: green;
+    background: #DDFFDD;
+}
